@@ -1,0 +1,39 @@
+/* Clients */
+.clients .flex-item {
+	width: 33.3%;
+}
+
+.clients-item__image {
+	width: 15rem;
+	height: 15rem;
+	object-fit: cover;
+	object-position: 50% 0px;
+	background-color: white;
+	border-radius: 50%;
+	transition: all .4s;
+}
+
+.clients-item__name {
+	font-size: 3rem;
+}
+
+.clients-item__desc {
+	width: 100%;
+	padding: 1rem;
+	margin: 0 auto;
+	transition: all .4s;
+}
+
+.clients-item__comm {
+	color: var(--gray-dark);
+}
+
+.clients-item__desc i {
+	color: gold;
+}
+
+@media(max-width: 576px) {
+	.clients .flex-item {
+		width: 100%;
+	}
+}
