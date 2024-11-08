@@ -20,7 +20,7 @@
 }
 
 @media(max-width: 576px) {
-	.about-item {
+	.about .flex-item {
 		width: 100%;
 	}
 }
